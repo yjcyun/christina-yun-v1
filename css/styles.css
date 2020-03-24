@@ -114,14 +114,13 @@ a.btn {
 
 }
 
-#menu a i {
-  padding: 8px 13px;
-  text-align: center;
-}
-
+/* Navbar */
 #navbar li {
   list-style: none;
   display:block;
+  position: relative;
+  width: 4rem;
+  height: 3rem;
 }
 
 #navbar li a {
@@ -131,23 +130,45 @@ a.btn {
   /* padding-bottom: 15px; */
 }
 
-#navbar a span {
-  display: none;
+#navbar li a span {
+  position: absolute;
+  display: block; 
+  top: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   text-align: center;
   font-size: 1rem;
-}
-
-#navbar a:hover i {
-  display: none;
-}
-
-#navbar a:hover span {
-  display: block;
-  text-align: center;
   padding: 15px 0;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+#navbar li a i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 8px 0;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
 
+#navbar li a:hover i {
+  display: none;
+  opacity: 0;
+}
+
+#navbar li a:hover span {
+  display: block;
+  opacity: 1;
+}
 
 /* Profile */
 #profile {

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Sacramento&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/b0a31ff84e.js" crossorigin="anonymous"></script>
+  <title>Christina Yun</title>
+</head>
+
+<body>
+  <!-- HOME PAGE -->
+  <section id="home">
+    <div class="home-content">
+      <h1 class="intro">I'm <span>Christina Yun</span></h1><br />
+      <h3>a web developer</h3>
+      <a href="#profile" class="btn" id="homepage-btn">learn more
+        <i class="fas fa-arrow-right arrow-right"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- NAVBAR -->
+  <section id="navbar">
+    <ul id="menu">
+      <li>
+        <a href="#home">
+          <i class="fas fa-home fa-2x"></i>
+          <span>home</span>
+        </a>
+      </li>
+      <li>
+        <a href="#profile">
+          <i class="fas fa-user-circle fa-2x"></i>
+          <span>profile</span>
+        </a>
+      </li>
+      <li>
+        <a href="#projects">
+          <i class="fas fa-file-code fa-2x"></i>
+          <span>projects</span>
+        </a>
+      </li>
+      <li>
+        <a href="#contact">
+          <i class="fas fa-comment fa-2x"></i>
+          <span>contact</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- PROFILE SECTION -->
+  <section id="profile">
+    <div class="heading">
+      <h1>Profile</h1>
+      <hr>
+    </div>
+    <div class="content">
+      <img src="./css/img/avatar.png" alt="profile_avatar">
+      <p>Hi there, my name is Christina and I'm a web developer based in Toronto, Canada. I have a passion for web
+        development and love to create web applications. I studied Biology in school and was pursuing my career as a
+        veterinary technician when I discovered the whole new realm of web development. Since then, I've been
+        self-learning and am still trying to learn more about web technologies and related topcis. Currently, I'm
+        playing around with React with Redux.</p>
+    </div>
+    <a class="btn" id="resume-btn" href="./resume.html" target="_blank">view resume</a>
+  </section>
+
+  <!-- PROJECT SECTION -->
+  <section id="projects">
+    <div class="heading">
+      <h1>Projects</h1>
+      <hr>
+    </div>
+
+    <div class="project-grid ">
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="content-image" src="./css/img/img1.png" alt="thumbnail1">
+        <div class="overlay-detail">
+          <div class="overlay-text">
+            <h2>Project One</h2>
+            <a class="btn" id="project-btn" href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="content-image" src="./css/img/img2.png" alt="thumbnail1">
+        <div class="overlay-detail">
+          <div class="overlay-text">
+            <h2>Project Two</h2>
+            <a class="btn" id="project-btn" href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="content-image" src="./css/img/img3.png" alt="thumbnail1">
+        <div class="overlay-detail">
+          <div class="overlay-text">
+            <h2>Project Three</h2>
+            <a class="btn" id="project-btn" href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="content-image" src="./css/img/img4.png" alt="thumbnail1">
+        <div class="overlay-detail">
+          <div class="overlay-text">
+            <h2>Project Four</h2>
+            <a class="btn" id="project-btn" href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="heading heading-dark">
+      <h1>Contact</h1>
+      <hr>
+    </div>
+    <div class="content">
+      <p>I'm currently available for freelance work. <br />
+        If you have a project you'd like help with or if you have any
+        questions,<br /> then get in touch with me.</p>
+    </div>
+    <a href=""><i class="far fa-envelope fa-lg contact-icon"></i></a>
+    <a href=""><i class="fab fa-linkedin-in fa-lg contact-icon"></i></a>
+    <a href=""><i class="fab fa-instagram fa-lg contact-icon"></i></a>
+
+    <div class="footer">
+      <p>Christina Yun &copy; <span id="current-year"></span></p>
+    </div>
+
+
+  </section>
+
+</body>
+<script src="index.js"></script>
+
+</html>

@@ -103,7 +103,7 @@ a.btn {
   position: fixed;
   top: -500px;
   left: 2rem;
-  width: 60px;
+  width: 65px;
   transition: top 0.3s;
   margin-top: 18rem;
   border: 1px solid #1a1a1a;
@@ -127,7 +127,6 @@ a.btn {
   color: #fff;
   text-decoration: none;
   display: block;
-  /* padding-bottom: 15px; */
 }
 
 #navbar li a span {
@@ -203,7 +202,7 @@ a.btn {
 
 /* Projects */
 #projects {
-  background-color: #F0F0F0;
+  background-color: #fff;
   padding-bottom: 8rem;
 }
 

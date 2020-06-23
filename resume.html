@@ -5,183 +5,153 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/resume.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/b0a31ff84e.js" crossorigin="anonymous"></script>
   <title>Resume</title>
 </head>
 
 <body>
-  <div class="box">
-    <!-- header section -->
-    <div class="header">
-      <div class="header-name">
-        <h1>CHRISTINA YUN</h1>
-        <p>Front-end Web Developer</p>
+  <!-- main section -->
+  <div class="main-content">
+    <!-- sidebar -->
+    <div class="content-right">
+      <div class="subheading">
+        <h2>Contact</h2>
       </div>
-      <div class="header-contact">
-        <ul>
-          <li><a href="" class="fab fa-github"><span>github.com/yjcyun</span></a></li>
-          <li><a href="" class="fab fa-linkedin"><span>LinkedIn</span></a></li>
-          <li><a href="" class="fas fa-globe"><span>www.christinayun.ca</span></a></li>
-          <li><i class="fas fa-map-marker-alt"><span>Toronto, ON</span></i></li>
-        </ul>
+      <!-- sidebar-content -->
+      <div class="sidebar-content">
+        <div class="content-detail">
+          <h4>Address</h4>
+          <p>9 Everingham Crt.<br /> Toronto, ON M2M 2J6</p>
+        </div>
+        <div class="content-detail">
+          <h4>Phone</h4>
+          <p>416-270-8912</p>
+        </div>
+        <div class="content-detail">
+          <h4>Email</h4>
+          <p>christina5707@gmail.com</p>
+        </div>
+        <div class="content-detail">
+          <h4>Website</h4>
+          <span>https://christinayun.ca</span>
+          <span>https://github.com/yjcyun</span>
+        </div>
       </div>
+      <!-- end of sidebar content -->
+
+      <!-- technical skils -->
+      <div class="subheading">
+        <h2>Technical Skills</h2>
+      </div>
+      <div class="sidebar-content">
+        <div class="content-detail">
+          <p><strong>Languages:</strong> Javascript</p>
+          <p><strong>Froned-end Frameworks:</strong> React, Gatsby</p>
+          <p><strong>CMS:</strong> Contentful, Netlify</p>
+          <p><strong>State-Management:</strong> Context API, Redux</p>
+          <p><strong>Others:</strong> Git, Hyper Command</p>
+          <p><strong>Styling:</strong> CSS, Sass, Bootstrap, Styled-Components</p>
+        </div>
+      </div>
+      <!-- end of technical skills -->
+
+      <!-- skills in progress -->
+      <div class="subheading">
+        <h2>Skills in Progress</h2>
+      </div>
+      <div class="sidebar-content">
+        <div class="content-detail">
+          <p><strong>Back-end:</strong> Node.js, Express.js</p>
+          <p><strong>Database:</strong> MongoDB, Firebase</p>
+        </div>
+      </div>
+      <!-- end of skills in progress -->
     </div>
 
-    <hr />
-
-    <!-- main section -->
-    <div class="main-content">
+    <!-- Right Content -->
+    <div class="content-left">
+      <div class="name">
+        <h1>Christina Yun</h1>
+        <h3>Front-end Developer</h3>
+      </div>
       <!-- work experience -->
-      <div class="content-left">
-        <div class="experience">
-          <div class="heading">
-            <div class="vertical"></div>
-            <h2>Work Experience</h2>
-          </div>
+      <div class="experience">
+        <div class="heading">
+          <h2>Projects</h2>
+        </div>
 
-          <div class="job-container">
-            <div class="job-title">
-              <h4>Web Developer</h4>
-              <p>Freelance | 2020 - present</p>
-            </div>
-            <div class="job-des">
-              <p>
-                ... deliver personalized websites for clients
-              </p>
-            </div>
+        <div class="job-container">
+          <div class="job-title">
+            <h3>Online Plant Shop</h3><span>(https://yjcyun.github.io/Plantiful_plants_store/)</span>
           </div>
-
-          <div class="job-container">
-            <div class="job-title">
-              <h4>Medical Lab Technician </h4>
-              <p>IDEXX Laboratories | 2016 - 2019</p>
-            </div>
-            <div class="job-des">
-              <p>
-                Improved the lives of pets and pet owners through the detection of various diseases through the use of
-                advanced veterinary diagnostic tools and techniques. </p>
-              <ul>
-                <li>Involved in three departments: serology,
-                  Chemistry, and Parasitology.</li>
-                <li>With maticulate time management, my team was able to meet the deadline on daily basis</li>
-                <li>Daily duties included perform manual and automatic ELISA tests, handling
-                  biochemical analysis machines, including Beckman and Immulite, and performing microscopic examinations
-                  of fecal samples.</li>
-              </ul>
-            </div>
+          <div class="job-des">
+            <p>Inspired by a Shopify plant store, this application was built in <span class="bold-italic">Vanilla
+                Javascript</span> with <span class="bold-italic">HTML</span> and <span class="bold-italic">CSS</span>.
+              It manipulates DOM elements and complex functions are written to output the app including the shopping
+              cart
+              functionality.</p>
           </div>
+        </div>
 
-          <div class="job-container">
-            <div class="job-title">
-              <h4>Insurance Customer Support</h4>
-              <p>State Farm Insurance | 2018</p>
-            </div>
-            <div class="job-des">
-              <ul>
-                <li>Provided insurance and financial service products and responded to adminstrative inquires regarding
-                  insurance availability, eligibility, coverages, claim submissions, and billing clarification.</li>
-                <li>Acted
-                  multiple roles as a receptionist, administrative assistant and insurance sales agent</li>
-              </ul>
-            </div>
+        <div class="job-container">
+          <div class="job-title">
+            <h3>Hacker News Clone</h3><span>(https://dog-news-b10d7.web.app/new/1)</span>
           </div>
-
-          <div class="job-container">
-            <div class="job-title">
-              <h4>ER Registered Veterinary Technician </h4>
-              <p>VEC | 2017 - 2018</p>
-            </div>
-            <div class="job-des">
-              <ul>
-                <li>Provided primary care for veterinary patients in urgent situations in a heavily teamwork-oriented
-                  environment.</li>
-                <li>Daily duties included venipuncture, ultrasound, x-rays, first-aid care, CPR, anesthesia,
-                  and durg administration. </li>
-                <li>Carried out daily round rounds using exceptional communication
-                  skills to ensure a personalized level fo care.</li>
-              </ul>
-            </div>
+          <div class="job-des">
+            <p>Inspired by Hacker News, it is a social news website builts with <span
+                class="bold-italic">Create-React-App</span> and <span class="bold-italic">Semantic UI</span> for
+              styling. The backend and authentication were built using <span class="bold-italic">Google Firebase</span>.
+            </p>
           </div>
+        </div>
 
-          <div class="job-container">
-            <div class="job-title">
-              <h4>Animal Care Assistant</h4>
-              <p>Church Yonge Animal Clinic | 2014 - 2016</p>
-            </div>
-            <div class="job-des">
-              <ul>
-                <li>Provided care for veterinary patients by assisting veterinarians in daily treatments.</li>
-                <li>Delivered full
-                  client-centered customer service by reponding to inquires, providing client education,and
-                  communicating
-                  with empathy.</li>
-              </ul>
-            </div>
+        <div class="job-container">
+          <div class="job-title">
+            <h3>Personal Portfolio Website</h3><span>(https://heatherdick.netlify.app/)</span>
+          </div>
+          <div class="job-des">
+            <p>A personal website for an actress based in Toronto. Frontend built with <span class="bold-italic">Gatsby,
+                Graphql</span>, and <span class="bold-italic">Strapi</span> used as a CMS. Netlify and Heroku were used
+              to deploy the website. <span class="bold-italic">Adobe XD</span> was used to build a prototype for the
+              customer.</p>
+          </div>
+        </div>
+        <div class="job-container">
+          <div class="job-title">
+            <h3>Online Fabric Store</h3><span>(https://threadandneedle.netlify.app/)</span>
+          </div>
+          <div class="job-des">
+            <p>A modern fabric store built with <span class="bold-italic">Create-React-App</span>, states managed with
+              <span class="bold-italic">Context API,</span> and data stored on <span
+                class="bold-italic">Contentful</span>. It lets users add desired items to the shopping cart and checkout
+              with a paypal account.
+            </p>
           </div>
         </div>
       </div>
-
-      <!-- skills on the side -->
-      <div class="content-right">
-        <div class="skills">
-          <div class="heading">
-            <div class="vertical"></div>
-            <h2>Skills</h2>
-          </div>
-          <div class="content-detail">
-            <h4>Technical</h4>
-            <ul>
-              <li>HTML5/CSS3</li>
-              <li>Javascript/React</li>
-              <li>Node.js</li>
-              <li>MongoDB</li>
-            </ul>
-          </div>
-          <div class="content-detail">
-            <h4>Professional</h4>
-            <ul>
-              <li>Effective communication</li>
-              <li>Team player</li>
-              <li>Good time management</li>
-            </ul>
-          </div>
+      <!-- end of work experience -->
+      <!-- Education -->
+      <div class="experience">
+        <div class="heading">
+          <h2>Education</h2>
         </div>
 
-        <div class="education">
-          <div class="heading">
-            <div class="vertical"></div>
-            <h2>Education</h2>
+        <div class="job-container">
+          <div class="job-title">
+            <h3>University of Guelph,</h3><span>Guelph, ON - <em>BSc. Biological Science</em></span>
           </div>
-          <div class="content-detail">
-            <h5>Diploma in <br /> Veterinary Technology</h5>
-            <p>Seneca College</p>
-            <p>2013 - 2015</p>
-          </div>
-
-          <div class="content-detail">
-            <h5>BSc Biological Science</h5>
-            <p>University of Guelph</p>
-            <p>2008 - 2013</p>
-          </div>
+          <small>september 2009 - May 2013</small>
         </div>
-
-        <div class="interests">
-          <div class="heading">
-            <div class="vertical"></div>
-            <h2>Interests</h2>
+        <div class="job-container">
+          <div class="job-title">
+            <h3>Seneca College,</h3><span>King City, ON - <em>Diploma in Veterinary Technician</em></span>
           </div>
-          <ul>
-            <li>hiking</li>
-            <li>outdoors/nature</li>
-            <li>personal development</li>
-            <li>web design</li>
-          </ul>
-
+          <small>september 2013 - May 2015</small>
         </div>
+        <!-- end of Education -->
       </div>
+      <!-- end of Right Content -->
     </div>
-  </div>
 </body>
 
 </html>

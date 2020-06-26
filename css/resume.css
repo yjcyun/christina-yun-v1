@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
-@font-face {
+/* @font-face {
   font-family: "CenturyGothic";
   src: url("../fonts/GOTHIC.TTF") format("truetype");
-}
+} */
 * {
   padding: 0;
   margin: 0;
-  font-family: 'CenturyGothic', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 @page {
@@ -22,13 +22,6 @@ html {
 ul {
   list-style: square;
   margin-left: 1rem;
-}
-
-hr {
-  background-color: rgba(0, 0, 0, 0.13);
-  border-top: rgba(0, 0, 0, 0.13);
-  border-style: none;
-  height: 1px;
 }
 
 .bold-italic {
@@ -47,7 +40,8 @@ hr {
   background: #003d73;
   color: white;
   margin: 0;
-  height: 102%;
+  height: 98.5%;
+  padding-top:2rem;
 }
 
 .subheading {
@@ -75,11 +69,12 @@ hr {
 }
 /* Content Right */
 .content-left {
-  padding: 2rem;
+  padding: 1rem;
+  padding-bottom: 0;
 }
 
 .name h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .name h3 {
   font-weight: normal;
@@ -92,20 +87,18 @@ hr {
 .heading {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
-  padding: 0.7rem 0;
-  font-size: 1.5rem;
+  padding: 0.2rem 0;
+  font-size: 1.2rem;
 }
 .heading h2{
   font-weight: 500;
 }
 
 .job-container {
-  padding: 0.5rem 0 1rem;
+  padding: 0.5rem 0 ;
 }
 
-.job-title {
-  margin-bottom: 0.6rem;
-}
+
 .job-title h3 {
   display: inline;
   font-size: 1.1rem;
@@ -117,7 +110,7 @@ hr {
   margin-left: 0.5rem;
 }
 
-.job-des p {
+.job-des p, .job-des li {
   font-size: 0.9rem;
   line-height:1.5;
   color: #666;

@@ -37,16 +37,16 @@ ul {
 
 /* sidebar */
 .content-right {
-  background: #003d73;
+  background: #363c47;
   color: white;
   margin: 0;
   height: 98.5%;
-  padding-top:2rem;
+  padding:2rem 0;
 }
 
 .subheading {
-  background: #00315c;
-  padding: 0.5rem 1.5rem;
+  background: #606b7f;
+  padding: 0.5rem 1rem;
 }
 
 .sidebar-content {
@@ -54,7 +54,7 @@ ul {
 }
 
 .content-detail {
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   line-height: 1.7rem;
 }
 

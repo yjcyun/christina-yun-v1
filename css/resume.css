@@ -115,3 +115,10 @@ ul {
   line-height:1.5;
   color: #666;
 }
+
+.date{
+  display:block;
+ margin-left: 0!important;
+ margin-bottom: 0.3rem;
+ color: black!important;
+}
